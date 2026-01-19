@@ -1,0 +1,53 @@
+:root {
+    --paper: #F4F4F4;
+    --oxblood: #4A0404;
+    --olive: #556B2F;
+    --onyx: #1A1A1A;
+}
+
+body {
+    background-color: var(--paper);
+    color: var(--onyx);
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    border-bottom: 2px solid var(--oxblood);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    font-style: italic;
+    color: var(--oxblood);
+}
+
+.container {
+    padding: 50px;
+}
+
+.card {
+    border: 1px solid var(--olive);
+    width: 300px;
+    padding: 10px;
+    background: white;
+}
+
+.image-placeholder {
+    width: 100%;
+    height: 400px;
+    background-color: var(--olive); /* Placeholder until you add images */
+    opacity: 0.3;
+}
+
+.tag {
+    color: var(--oxblood);
+    font-size: 10px;
+    font-weight: bold;
+}
